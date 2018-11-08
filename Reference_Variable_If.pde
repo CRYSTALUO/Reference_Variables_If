@@ -6,7 +6,7 @@ int bounce=10;
 
 void setup() {
   size(500, 500);
-  save("REFERENCE_Variables01");
+  
 }
 
 void draw() {
@@ -34,5 +34,5 @@ void draw() {
   {
     bounce=bounce*(-1);
   } 
-  save("REFERENCE_Variables01.png");
+ 
 }
